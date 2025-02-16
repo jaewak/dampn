@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "An extension that dampens your browers by turning the pages black and white.",
   "icons": {
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
   },
 }
