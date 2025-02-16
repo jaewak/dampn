@@ -3,7 +3,15 @@
   "name": "dampn",
   "version": "1.0.0",
   "description": "An extension that dampens your browers by turning the pages black and white.",
-  "permissions": ["activeTab"],
+  "permissions": [
+	  "activeTab", 
+	  "tabs",
+  	  "scripting"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
